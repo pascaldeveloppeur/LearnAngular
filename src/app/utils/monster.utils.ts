@@ -12,19 +12,19 @@ export interface IMonsterProperties {
 
 export const MonsterTypeProperties: {[key: string]: IMonsterProperties} = {
 	[MonsterType.PLANT]: {
-		imageUrl: 'assets/img/pngegg (1).png',
+		imageUrl: 'assets/img/pngegg1.png',
 		color: 'rgba(135, 255, 124)'
 	},
 	[MonsterType.ELECTRIC]: {
-		imageUrl: 'assets/img/pngegg (2).png',
+		imageUrl: 'assets/img/pngegg2.png',
 		color: 'rgb(255, 255, 104)'
 	},
 	[MonsterType.FIRE]: {
-		imageUrl: 'assets/img/pngegg (3).png',
+		imageUrl: 'assets/img/pngegg3.png',
 		color: 'rgb(255, 104, 104)'
 	},
 	[MonsterType.WATER]: {
-		imageUrl: 'assets/img/pngegg (2).png',
+		imageUrl: 'assets/img/pngegg2.png',
 		color: 'rgba(118, 234, 255)'
 	},
 }
